@@ -1,0 +1,74 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+      "bot_response": "Start by typing: 'How to learn coding' on Google.",
+      "required_words": ["learn", "code"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We don't offer refunds for free education.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["which", "color", "do", "you", "like"],
+      "bot_response":"All Colors are my favorite",
+      "required_words": ["which", "color", "do", "you", "like"]
+    },
+    {
+      "response_type": "question",
+      "user_input": [ "you", "are", "funny"],
+      "bot_response": "Good to know, that I'm funny - Haha !",
+      "required_words": [ "you", "are", "funny"]
+    },
+    {
+      "response_type": "question",
+      "user_input": [ "are", "you", "my", "friend"],
+      "bot_response": "Yes, I'm your friend",
+      "required_words": ["you", "are", "my", "friend"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["when", "is", "your", "birthday"],
+      "bot_response": "My birthday is on 29nd January, 2023",
+      "required_words": ["when", "is", "your", "birthday"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["are", "you", "robot"],
+      "bot_response": "Yes I'm a robot (:",
+      "required_words": ["are", "you", "robot"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["smart", "are", "you"],
+      "bot_response": "I'm a program, so I'm smart",
+      "required_words": ["you", "are", "smart"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["i", "am", "sorry"],
+      "bot_response": "It's Ok",
+      "required_words": ["i", "am", "sorry"]
+    }
+]
